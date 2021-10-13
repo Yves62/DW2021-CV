@@ -1,0 +1,116 @@
+/*************Contact COORDONNEES********************/
+.coordonnees{
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+.coordonnees h2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin:15px 0;
+    /* border-bottom: 1px dashed black; */
+    padding-bottom: 10px;
+}
+
+.coordonnees h2::after{
+    content:"";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: crimson;
+}
+
+.coordonnees p{
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width : 800px){
+    .coordonnees h2{
+        font-size:1.1rem;
+    }
+    .coordonnees p{
+        font-size: 0.8rem;
+    }
+}
+
+/********Contact FORMULAIRE***************/
+
+.contact{
+    padding: 10px ;
+}
+
+.contact h2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin:15px 0;
+    /* border-bottom: 1px dashed black;   */
+    padding-bottom: 10px;
+}
+
+.contact h2::after{
+    content:"";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: crimson;
+}
+
+.contact .contact-form{
+    display:flex;
+    margin : 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    margin-top:25px;
+    /* box-shadow: 1px 2px 3px; */
+}
+
+.contact .contact-form:hover{
+    box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.336);
+    transition: 0.3s;
+}
+
+.contact .contact-form input,.contact .contact-form textarea{
+    padding : 15px;
+    margin:5px 0;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    background-color: rgba(169, 169, 169, 0.151);
+    font-size: 0.8rem;
+    font-family: inherit;
+}
+
+.contact .contact-form input:focus,.contact .contact-form textarea:focus{
+  border:1px solid rgb(53, 53, 79);
+}
+
+.contact .contact-form textarea{
+    resize: none;
+    height: 100px;
+}
+
+.contact .contact-form input[type="submit"]{
+    background-color: rgb(53, 53, 79);
+    color:white;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.contact .contact-form input[type="submit"]:hover{
+    transition: 0.2s;
+    background-color: rgba(53, 53, 79, 0.727);
+    color:white;
+}
+
+@media screen and (max-width : 800px){
+    .contact h2{
+        font-size:1.1rem;
+    }
+    .contact p{
+        font-size: 0.8rem;
+    }
+    .contact .contact-form input[type="submit"]{
+        font-size: 1rem;
+    }
+}
