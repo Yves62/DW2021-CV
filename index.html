@@ -1,134 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="description" content="Page d'accueil du cv Boulinguez Yves">
+    <title>CV</title>
 </head>
+
 <body>
-    
-    <div class="container">
 
-        <header>
+    <!--Header-->
 
-            <div class="header-left">
+    <header>
+        <div class="image-profil">
+            <img src="./image/image2.jpg" alt="image de profil du candidat">
+        </div>
 
-                <h1>Facebook</h1>
+        <div class="poste-recherche">
+            <h1>Candidature alternance developpeur web</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in perferendis tempore expedita iure
+                provident, sunt velit dolorum. Praesentium, porro.</p>
+        </div>
 
-            </div>
+        <div class="info-profil">
+            <p>Boulinguez Yves</p><br>
+            <p>34 ans</p><br>
+            <p>Permis B</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aspernatur.</p><br>
+            <p>boulinguez.yves@doe.fr</p>
 
-            <div class="header-right">
+        </div>
+    </header>
 
-                <form action="" class="little-form">
-                    
-                    <div class="first-div">
-                        <label>Adresse e-mail ou mobile</label>
-                        <input type="email" name="mail" id="mail">
-                        <input type="checkbox" name="checked" id="checked">
-                        <label for="checkbox">Garder ma session active</label>
-                    </div>
-                    
-                    <div class="second-div">
-                        <label>Mot de passe</label>
-                        <input type="password" name="password" id="password">
-                        <p>Mot de passe oublié ?</p>
-                    </div>
+    <!-- Menu -->
 
-                    <div class="third-div">
-                        <input class="btn-header" type="button" value="Connexion">
-                    </div> 
+    <nav>
+        <ul class="nav-menu">
+            <li class="item-nav"><a href="index.html" target="_blank">CV</a></li>
+            <li class="item-nav"><a href="./pages/experience.html" target="_blank">Expériences</a></li>
+            <li class="item-nav"><a href="./pages/contact.html" target="_blank">Me contacter</a></li>
+        </ul>
+    </nav>
 
-                </form>
+    <!-- Formations -->
 
-            </div>
+    <section class="formations">
 
-        </header>
-
-        <!-- inscription -->
-
-        <section id="form-inscription">
-
-            <div class="left">
+        <h2>Formations</h2>
 
 
-            </div>
-
-            <div class="right">
-
-                <div class="title">
-                    <h2>Inscription</h2>
-                    <p>C'est gratuit (et ça le restera toujours) </p>
-                </div>
-
-                <form action="" class="form-complete">
-
-                    <div class="global-info">
-
-                        <div>
-                            <input type="text" name="prenom" id="prenom" placeholder="Prénom" required>
-                            <input type="text" name="nom" id="nom" placeholder="Nom de famille" required>
-
-                        </div>
-
-                        <input type="email" name="email" id="email" placeholder="Adresse e-mail ou" required>
-                        <input type="email" name="email-confirm" id="email-confirm" placeholder="Confirmer l'adresse e-mail ou le mobile" required>
-                        <input type="password" name="password-inscription" id="password-inscription" placeholder="Nouveau mot de passe" required>
-
-                    </div>
-
-                    <div class="Birthday">
-
-    
-                        <p>Anniversaire</p>
-    
-                        <input type="text" name="day" id="day" placeholder="Jour" required>
-                        <input type="text" name="month" id="month" placeholder="Mois" required>
-                        <input type="text" name="year" id="year" placeholder="Année" required>
-    
-                        <a href="#">Pourquoi indiquer ma date de naissance ?</a>
+        <ul class="ul-formations">
+            <li class="li-formations">2005 : Lorem ipsum dolor sit amet.</li>
+            <li class="li-formations">2005/2006 : Lorem ipsum dolor sit amet</li>
+            <li class="li-formations">2006/2009 : Lorem ipsum dolor sit amet</li>
+            <li class="li-formations">2009/2010 : Lorem ipsum dolor sit amet</li>
+            <li class="li-formations">2010/2011 : Lorem ipsum dolor sit amet</li>
+            <li class="li-formations">2021 : Lorem ipsum dolor sit amet.</li>
+        </ul>
 
 
-                    </div>
+    </section>
+
+    <!-- Compétences -->
+
+    <section class="competences">
+
+        <h2>Domaine de compétences</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Compétences</th>
+                    <th>Détails</th>
+                    <th>Niveaux</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Programmation Web</td>
+                    <td>html, css, javascript, php, mySql, bootstrap, Sass</td>
+                    <td>Intermédiaire</td>
+                </tr>
+                <tr>
+                    <td>Bureatique</td>
+                    <td>Word,Excel,Powerpoint</td>
+                    <td>Intermediaire</td>
+                </tr>
+                <tr>
+                    <td>Graphiste</td>
+                    <td>Photoshop, Illustrator, Figma</td>
+                    <td>Débutant</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Anglais</td>
+                    <td>Elementaire</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <!-- Hobbies -->
+
+    <section class="hobbies">
+
+        <h2>Hobbies</h2>
+
+        <ul class="ul-hobbies">
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+            <li class="li-hobbies">Lorem ipsum dolor sit amet.</li>
+        </ul>
 
 
-                    <div class="choix-sexe">
-                        <input type="radio" name="homme" id="homme">
-                        <label for="Homme">Homme</label>
-                        <input type="radio" name="Femme" id="Femme">
-                        <label for="Femme">Homme</label>
-                    </div>
+    </section>
 
-                    <div class="cgv">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet quaerat velit totam, asperiores possimus aliquam fugit officia perspiciatis vitae harum a dolores quibusdam itaque!
-                    </div>
+    <!-- Footer -->
 
-                    <input class="btn" type="submit" value="Inscription">
-
-                </form>
-
-
-
-
-            </div>
-
-
-
-
-
-
-        </section>
-
-
-
-
-
-
-    </div>
-
-
-
+    <footer>
+        <span>CV - Boulinguez Yves</span>
+    </footer>
 
 
 
@@ -136,4 +133,5 @@
 
 
 </body>
+
 </html>
